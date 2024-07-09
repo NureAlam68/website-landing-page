@@ -15,14 +15,14 @@ body {
 /* banner section */
 .banner-section {
     background-image: url("../images/newyearone.png");
-    width: 1320px;
-    height: 600px;
+    width: 1800px;
+    height: 800px;
     margin: 0 auto;
     margin-top: 50px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: overlay;
     border-radius: 16px;
 } 
@@ -104,4 +104,67 @@ body {
 .image-container img {
     height: 100%;
     width: 100%;
+} 
+
+/* midnight party section style */
+.midnight-party-container {
+    width: 1800px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    background-image: url("../images/night.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    border-radius: 16px;
+} 
+
+.left-side-content {
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.right-side-content {
+    width: 50%;
+    height: 800px;
+} 
+
+.left-side-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 170px;
+} 
+
+.left-side-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 200px;
+    margin-top: 50px;
+} 
+
+#midnight-btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-right: 380px;
+    border: 2px dashed aliceblue;
+    padding: 5px;
+} 
+
+.right-side-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
