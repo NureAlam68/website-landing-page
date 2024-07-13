@@ -295,4 +295,71 @@ body {
 .best-offer-img-two img {
     border: 2px dashed rgb(162, 166, 170);
     margin-right: 130px;
+} 
+
+/* holiday section design */
+.holiday-section {
+    width: 1800px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 130px;
+    position: relative;
+} 
+
+.holiday-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.holiday-text-container h5 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+} 
+
+.holiday-text-container h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 16px;
+} 
+
+#holiday {
+    color: rgb(255, 0, 0);
+} 
+
+.holiday-text-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.solid-color {
+    width: 1800px;
+    height: 235px;
+    background-color: red;
+    position: absolute;
+    top: 76.36%;
+} 
+
+.gift-box {
+    width: 674.82px;
+    height: 577.96px;
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    display: flex;
+    left: 20%;
+} 
+
+.grl-container {
+    position: relative;
+    top: 50%;
 }
